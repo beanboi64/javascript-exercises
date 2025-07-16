@@ -8,10 +8,14 @@
 */
 
 // Add your code right below, good luck!
+const firstName = "Morgan";
+const lastName = "Gibbs-White";
+const thisYear = 2025;
+const birthYear = 2000;
+const fullName = firstName + " " + lastName;
+const age = thisYear - birthYear;
 
-
-
-
+const greeting = "Hello! My name is " + fullName + " and I am " + age + " years old.";
 
 // Do not change this
 module.exports = {
